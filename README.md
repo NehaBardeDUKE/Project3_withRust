@@ -1,6 +1,3 @@
-# rust-new-project-template
-A good starting point for a new Rust project
+# Data Pre-processing microservice
 
-## References
-
-* [rust-cli-template](https://github.com/kbknapp/rust-cli-template)
+A microservice that takes a .pkl file, loads it to S3 or EBS and then pre-processes the data as required by the machine learning model.
